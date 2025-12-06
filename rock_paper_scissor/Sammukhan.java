@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Sammukhan{
     public String choice_niyati;
     public String choice_jeev;
-    public String akashvani = "Choose among:\nStone, Paper or Scissor";
-    public String border = "******************************************************";
-    public String cleaner = "\033[F";
-    public String newline = "\n";
+    public final String akashvani = "Choose among:\nStone, Paper or Scissor";
+    public final String border = "******************************************************";
+    public final String cleaner = "\033[F";
+    public final String newline = "\n";
     
     public Sammukhan(){
         /* Instantiate obj */
